@@ -1,0 +1,534 @@
+/*
+ *	Icons
+*/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?psd4xf');
+  src: url('fonts/icomoon.eot?psd4xf#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?psd4xf') format('truetype'), url('fonts/icomoon.woff?psd4xf') format('woff'), url('fonts/icomoon.svg?psd4xf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/**
+ *	Backend Styles
+ */
+#toplevel_page_wp-human-presence .dashicons-admin-generic:before {
+  content: '\e900';
+  display: inline-block;
+  vertical-align: bottom;
+  speak: none;
+  font: normal 20px/1 'icomoon' !important;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wp-human-presence code {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 1px 3px;
+}
+.wp-human-presence pre {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px 2px;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+.wp-human-presence .toplevel_page_wp-human-presence .updated.below-h2 {
+  margin: 10px;
+}
+.wp-human-presence .create-hp-acct-text,
+.wp-human-presence .create-hp-acct-text input {
+  font-size: 11px;
+}
+.wp-human-presence #hp-connect-box input {
+  width: 48%;
+}
+.wp-human-presence #hp-connect-box input[class*='button'] {
+  width: auto;
+}
+.wp-human-presence #hp-connect-box input ~ input {
+  margin-left: 3%;
+}
+.wp-human-presence .hp-acct-login-date {
+  font-size: 11px;
+  margin-top: 20px;
+  color: #999;
+  font-weight: normal;
+  font-style: italic;
+}
+.wp-human-presence .wrap h2 img {
+  vertical-align: bottom;
+}
+.wp-human-presence #poststuff .inside h3 {
+  padding: 8px 0;
+  font-size: 16px;
+}
+.wp-human-presence #poststuff .upgrade-premium-wrapper {
+  border-left: 4px solid #dc3232;
+  margin: 0;
+  padding-top: 11px;
+}
+.wp-human-presence #poststuff .connected {
+  margin: 0 0 20px;
+}
+.wp-human-presence .action-row {
+  text-align: right;
+}
+.wp-human-presence .postbox.md {
+  width: 90%;
+  margin: 40px auto 0;
+}
+.wp-human-presence .postbox.md > h3 {
+  font-size: 16px;
+}
+.wp-human-presence .postbox.md .action-row {
+  margin-top: 40px;
+}
+.wp-human-presence .minimal-confidence {
+  width: 60px;
+}
+.wp-human-presence .license-key {
+  width: 450px;
+}
+.wp-human-presence .hide {
+  display: none !important;
+}
+.wp-human-presence .show {
+  display: block !important;
+}
+.wp-human-presence .pull-left {
+  float: left !important;
+}
+.wp-human-presence .pull-right {
+  float: right !important;
+}
+.wp-human-presence .text-center {
+  text-align: center;
+}
+.wp-human-presence .text-left {
+  text-align: left;
+}
+.wp-human-presence .text-right {
+  text-align: right;
+}
+.integrated-forms-list {
+  list-style: disc;
+  margin-left: 25px;
+}
+.upgrade-premium-wrapper {
+  border-left: 4px solid #dc3232;
+  margin: 0;
+  padding-top: 6px;
+}
+/**
+ * Table Styles
+ */
+.wp-human-presence .widefat td {
+  vertical-align: middle;
+}
+.wp-human-presence .widefat td.dl {
+  width: 500px;
+}
+.wp-human-presence .widefat tbody th.check-column {
+  padding: 3px 0 0 3px;
+  vertical-align: middle;
+}
+/**
+ *	Button Styles
+ */
+.wp-human-presence .button-link {
+  color: #0074a2;
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  cursor: pointer;
+}
+.wp-human-presence .button-link:hover,
+.wp-human-presence .button-link:focus {
+  color: #2ea2cc;
+}
+.wp-human-presence .button-primary.danger {
+  background: #dc3232;
+  border-color: #dc3232;
+}
+.wp-human-presence .button-primary.danger:hover,
+.wp-human-presence .button-primary.danger:focus {
+  background: #b51717;
+  border-color: #b51717;
+}
+/**
+ * Label Styles
+ */
+.wp-human-presence .label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+.wp-human-presence .label .badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 1px 4px;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: text-bottom;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.wp-human-presence .label-default {
+  background-color: #777;
+}
+.wp-human-presence .label-default .badge {
+  color: #777;
+}
+.wp-human-presence .label-success {
+  background-color: #5cb85c;
+}
+.wp-human-presence .label-success .badge {
+  color: #5cb85c;
+}
+.wp-human-presence .label-danger {
+  background-color: #d9534f;
+}
+.wp-human-presence .label-danger .badge {
+  color: #d9534f;
+}
+/**
+ *	Support Dropdown Styles
+ */
+.wp-human-presence .dd-btn-row {
+  float: right;
+  font-size: 13px;
+  position: relative;
+}
+.wp-human-presence .dd-btn-row .button-primary {
+  vertical-align: top;
+}
+.wp-human-presence .dropdown {
+  display: inline;
+}
+.wp-human-presence .dropdown .dd-menu {
+  width: 200px;
+  display: none;
+  position: absolute;
+  margin-left: -50px;
+  border-radius: 4px;
+  z-index: 999999;
+  box-shadow: 0 0 0 1px rgba(39, 44, 48, 0.05), 0 2px 7px 1px rgba(39, 44, 48, 0.16);
+}
+.wp-human-presence .dropdown .dd-menu ul {
+  display: table-cell;
+  border: solid 1px #e0e1dc;
+  border-top: none;
+  border-radius: 4px;
+  background: #fff;
+  width: 120px;
+  z-index: 999999;
+}
+.wp-human-presence .dropdown .dd-menu ul li {
+  margin-top: 6px;
+  display: block;
+}
+.wp-human-presence .dropdown .dd-menu ul a {
+  padding: 5px 10px;
+  display: block;
+  text-decoration: none;
+}
+.wp-human-presence .dropdown .dd-menu ul a:hover {
+  background: #0085ba;
+  color: #fff;
+}
+.wp-human-presence .dropdown:hover .dd-menu {
+  display: table;
+}
+/**
+ * Checkbox Toggle Styles
+ */
+.wp-human-presence .check-toggle-container {
+  display: inline-block;
+}
+.wp-human-presence .check-toggle-label {
+  font-weight: bold;
+  padding-right: 6px;
+  display: inherit;
+  margin-top: 6px;
+  font-size: 14px;
+}
+.wp-human-presence .check-toggle {
+  width: 43px;
+  height: 26px;
+  border-radius: 26px;
+  background: transparent;
+  position: relative;
+  display: inherit;
+}
+.wp-human-presence .check-toggle input[type='checkbox'] {
+  visibility: hidden;
+}
+.wp-human-presence .check-toggle input[type='checkbox']:checked + label {
+  left: 18px;
+  border-color: #00bf6f;
+}
+.wp-human-presence .check-toggle input[type='checkbox']:checked ~ span {
+  background: #00bf6f;
+  border-color: #00bf6f;
+  box-shadow: inset 0 0 0 13px #00bf6f;
+}
+.wp-human-presence .check-toggle input[type='checkbox']:disabled:checked + label {
+  opacity: 0.45;
+}
+.wp-human-presence .check-toggle input[type='checkbox']:disabled:checked ~ span {
+  opacity: 0.25;
+}
+.wp-human-presence .check-toggle label {
+  background: #fff;
+  border-radius: 24px;
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0 -3px 3px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: 1;
+  transition: all 0.25s ease 0.15s;
+  -webkit-transition: all 0.25s ease 0.15s;
+  -moz-transition: all 0.25s ease 0.15s;
+  -o-transition: all 0.25s ease 0.15s;
+  -ms-transition: all 0.25s ease 0.15s;
+}
+.wp-human-presence .check-toggle span {
+  background: #fafafa;
+  border-radius: 50px;
+  border: 1px solid #d3d3d3;
+  box-shadow: inset 0 0 0 1px #d3d3d3;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  transition: all 0.25s ease 0.15s;
+  -webkit-transition: all 0.25s ease 0.15s;
+  -moz-transition: all 0.25s ease 0.15s;
+  -o-transition: all 0.25s ease 0.15s;
+  -ms-transition: all 0.25s ease 0.15s;
+}
+/**
+ * Settings Modal Styles
+ */
+.wp-human-presence .hp-modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+   display: none; 
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.wp-human-presence .hp-modal-window:target {
+  opacity: 1;
+   display: block; 
+  pointer-events: auto;
+}
+.wp-human-presence .hp-modal-window > div {
+  width: 45%;
+  position: relative;
+  margin: 10% auto;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #aeaeae;
+}
+.wp-human-presence .hp-modal-window header {
+  font-weight: bold;
+}
+.wp-human-presence .hp-modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+.wp-human-presence .hp-modal-window .dl p {
+  padding: 3px;
+  margin: 0;
+  font-weight: bold;
+}
+.wp-human-presence .hp-modal-close {
+  color: #aaa;
+  line-height: 40px;
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 45px;
+  text-decoration: none;
+}
+.wp-human-presence .hp-modal-close:hover,
+.wp-human-presence .hp-modal-close:focus {
+  color: #000;
+}
+/**
+ * CSS Popover Styles
+ */
+.wp-human-presence .hp-pop {
+  display: inline-block;
+  height: 30px;
+  line-height: 1.5em;
+  position: relative;
+  text-align: center;
+}
+.wp-human-presence .hp-pop .popover {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 5px;
+  bottom: 42px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  font-family: 'Helvetica', sans-serif;
+  left: -100px;
+  padding: 7px 10px;
+  position: absolute;
+  width: 200px;
+  z-index: 4;
+}
+.wp-human-presence .hp-pop .popover:before {
+  border-top: 7px solid rgba(0, 0, 0, 0.85);
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  bottom: -7px;
+  content: '';
+  display: block;
+  left: 50%;
+  margin-left: -7px;
+  position: absolute;
+}
+.wp-human-presence .hp-pop:hover .popover {
+  display: block;
+  -webkit-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+  -moz-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+  -ms-animation: fade-in 0.3s linear 1, move-up 0.3s linear 1;
+}
+.hp-community-upgrade-banner {
+  padding: 20px;
+  border-left-color: #fdbc25;
+  clear:  both;
+  position: relative;
+}
+.hp-community-upgrade-banner .clearfix {
+  clear:  both;
+}
+.hp-community-upgrade-banner img {
+  width: 80px;
+  float: left;
+}
+.hp-community-upgrade-banner h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.hp-community-upgrade-banner input[type=email] {
+  width: 220px;
+  border-radius: 0;
+}
+.hp-community-upgrade-banner input[type=email]:active,
+.hp-community-upgrade-banner input[type=email]:focus {
+  border-color: #fdbc25;
+  outline: #fdbc25;
+}
+.hp-community-upgrade-banner input[type=submit] {
+  padding: 7px 40px;
+  margin-left: 10px;
+  background: #fdbc25;
+  color: #000;
+  font-weight: bold;
+  border: 0 none;
+  cursor:  pointer;
+  transition: all 200ms linear;
+}
+.hp-community-upgrade-banner input[type=submit]:hover {
+  background: #000;
+  color: #fff;
+}
+.hp-community-upgrade-banner .hp-community-upgrade-banner-content-wrap {
+  padding-left: 20px;
+  float: left;
+}
+.hp-community-upgrade-banner .dismiss {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 42px;
+  }
+}
+@-moz-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 42px;
+  }
+}
+@-ms-keyframes move-up {
+  from {
+    bottom: 30px;
+  }
+  to {
+    bottom: 42px;
+  }
+}
